@@ -7,7 +7,7 @@ from fastapi import FastAPI, HTTPException, status, Response
 from pydantic import BaseModel, Field
 
 app = FastAPI(
-    title= "Simple Task Management API",
+    title= "Task Management API",
     version= "1.0.0",
     description= "A small FastAPI app that manages a to-do list using in-memory storage.",
 )
